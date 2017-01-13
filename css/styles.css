@@ -195,3 +195,42 @@ figure {
 .about > p {
   margin: 0;
 }
+
+@media (min-width: 768px) {
+  .site-nav {
+    position: fixed;
+    bottom: 0;
+    width: 9%;
+    z-index: 100;
+    background-color: #ffffff;
+    height: 100%;
+    top: 12%;
+    /*overflow: hidden;*/
+  }
+  .site-nav-list {
+    display: block;
+    width: 100%;
+    overflow: hidden;
+  }
+
+  .site-nav-item {
+    float: left;
+    width: 100%;
+    height: 100%;
+    margin-left: 85%;
+    display: block;
+    clear: both;
+  }
+  .movie {
+    margin-left: 9%;
+  }
+
+  .site-logo {
+    z-index: 101;
+    left: 1.5%
+  }
+
+  .site-logo-image {
+      width: 60%;
+  }
+}
