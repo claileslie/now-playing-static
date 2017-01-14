@@ -197,39 +197,50 @@ figure {
 }
 
 @media (min-width: 768px) {
+
   .site-nav {
-    position: fixed;
-    bottom: 0;
-    width: 9%;
-    z-index: 100;
-    background-color: #ffffff;
+    width: auto;
     height: 100%;
-    top: 12%;
-    overflow: hidden;
-  }
-  .site-nav-list {
-    display: block;
-    width: 100%;
-    background-color: red;
+    right: auto;
+    padding-top: 80px;
   }
 
   .site-nav-item {
-    float: left;
+    float: none;
     width: 100%;
-    /*height: 100%;*/
-    display: block;
-    clear: both;
-  }
-  .movie {
-    margin-left: 9%;
   }
 
   .site-logo {
-    z-index: 101;
-    left: 1.5%
+      z-index: 101;
+      /* width: 8%; */
+      left: 0.5rem;
+      width: 3.5rem;
   }
 
-  .site-logo-image {
-      width: 60%;
+  .movie {
+    left: 4rem;
   }
+
+  .movie-overview {
+    display: inline-block;
+  }
+
+  .footer-nav{
+    background-color: black;
+    color: white;
+    left: 12%;
+    position: relative;
+    float: left;
+  }
+
+  .site-footer {
+      overflow: hidden;
+      background-color: white;
+  }
+
+  .about {
+    background-color: black;
+    color: white;
+  }
+
 }
