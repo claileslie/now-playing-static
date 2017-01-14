@@ -258,4 +258,17 @@ figure {
 .movie:not(:first-child) .movie-overview {
   display: none;
 }
+
+.movie:not(:first-child) {
+  float: left;
+  width: 33%;
+}
+
+body {
+  background-color: black;
+  /*overflow: hidden;*/
+}
+main {
+  overflow: hidden;
+}
 }
