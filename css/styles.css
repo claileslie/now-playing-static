@@ -244,3 +244,18 @@ figure {
   }
 
 }
+
+@media (min-width: 992px) {
+
+.movie:not(:first-child) .movie-backdrop {
+  display: none;
+}
+
+.movie:not(:first-child) .movie-poster {
+  display: inline-block;
+}
+
+.movie:not(:first-child) .movie-overview {
+  display: none;
+}
+}
